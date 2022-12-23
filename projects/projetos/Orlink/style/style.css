@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300;1,700&display=swap');
+
+*  /*seleciona todas as tags*/ { 
+    margin: 0px; /* Margem*/
+    padding: 0px; /*A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    box-sizing: border-box;
+    text-decoration: none; /**/
+
+    font-family: 'Chakra Petch', sans-serif;
+    
+    
+} 
+
+body{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(29,255,0,1) 100%);
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 25px;
+    margin-top: 45px;
+
+}
+
+.escrito{
+    box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.75);
+    background-color: rgb(97, 97, 97);
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+    border-radius: 2vh;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(97, 97, 97);
+    box-shadow: 1px 5px 10px 5px rgba(0,0,0,0.75);
+    border-radius: 2vh;
+    
+}
+
+.botao:hover{
+    color: aliceblue;
+    background-color: rgb(29, 29, 29);
+}
+
+.botao{
+    display: flex;
+    width: 300px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 5vh;
+    justify-content: center;
+    box-shadow: 5px 3px 8px 0px rgba(0,0,0,0.75);
+
+}
